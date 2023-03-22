@@ -48,12 +48,29 @@ nav.navbar.navbar-expand-lg, div.mb-3 {
   margin: 10px auto;
 }
 
-button.btn {
-  background-color: #000814;
+button.btn, button {
+  background-color: #001d3d;
   color: #ffc300;
 }
 
  img {
   border-radius: 2em;
  }
+
+ .naughty{
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+ }
+ 
+ li.list-group-item {
+  background-color: #001d3d;
+ }
+
+ a {
+  color: #ffd60a
+ }
+
 
